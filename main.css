@@ -1,0 +1,281 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+body{
+    background: linear-gradient(to bottom, #b71053 0%, #ffffff 60%, #fcbcd1 100%);
+    background-repeat: no-repeat;
+}
+
+.topo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topo img{
+    width: 200px;
+    border-radius: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 20px;
+    background-color: #FFCFDE;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.navbar li{
+    padding: 0 30px;
+    color: rgb(4, 4, 4);
+    font-weight: bold;
+}
+
+#about h2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sobre{
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1024px;
+    color: black;
+    font-weight: 400;
+    justify-items: center;
+}
+
+#contato{
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1024px;
+    color: black;
+    font-weight: 400;
+    justify-items: center;
+}
+
+.btn{
+    background-image: linear-gradient(#fde9ef,#fff, #fde9ef);
+    border-radius: 20px;
+}
+
+.contato img{
+    padding-left: 20px;
+    width: 50px;
+    border-radius: 200px;
+    filter: saturate(9);
+}
+
+#redes-sociais{
+    text-align: center;
+    padding-top: 40px;
+    justify-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.lista-redes{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.lista-redes li{
+    padding: 20px;
+}
+
+.lista-redes img{
+    width: 45px;
+    filter: saturate(8);
+    border-radius: 200px;
+}
+
+@media (max-width: 767px){
+    
+    .navbar ul{
+        display: block;
+        font-size: 14px;
+        padding: 5px 3px;
+    }
+    
+    .navbar li{
+        padding: 5px 13px;
+    }
+
+    #about h2{
+        font-size: 20px;
+    }
+    
+    .sobre{
+        padding-top: 0;
+        margin: 10px auto;
+        font-size: 14px;
+        text-align: center;
+        width: 300px;
+    }
+
+    #contato{
+        padding-top: 55px;
+        margin: 10px auto;
+        width: 300px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .btn{
+        font-size: 12px;
+    }
+
+    #redes-sociais{
+        padding-top: 55px;
+        width: 300px;
+        padding: 10px auto;
+        font-size: 14px;
+    }
+
+    #redes-sociais h2{
+        font-size: 20px;
+    }
+    
+    .lista-redes{
+        justify-content: center;
+        display: flex;
+        list-style: none;
+        margin: 0 auto;
+        width: 200px;
+        padding-left: 0;
+    }
+    
+    .lista-redes img{
+        width: 45px;
+        filter: saturate(8);
+        border-radius: 200px;
+    }
+    
+    .navbar-menu{
+        border: outset 1px solid #fcbcd1;
+        border-radius: 20px;
+        background-color: #fcbcd1;
+        padding: 5px 20px;
+        margin-bottom: 10px;
+    }
+    
+    }
+
+    @media (min-width: 767px) and (max-width: 1023px){
+        .sobre{
+            width: 750px;
+            margin: 9px auto;
+            text-align: center;
+        }
+        
+        #contato{
+            width: 750px;
+            margin: 9px auto;
+        }
+        
+        #redes-sociais{
+            width: 750px;
+            margin: 9px auto;
+        }
+
+        .navbar-menu{
+            border: outset 1px solid #fcbcd1;
+            border-radius: 20px;
+            background-color: #fcbcd1;
+        }
+        
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px){
+        .sobre{
+            width: 1010px;
+            margin: 7px auto;
+            text-align: center;
+        }
+        
+        #contato{
+            width: 1010px;
+            margin: 7px auto;
+        }
+        
+        #redes-sociais{
+            width: 1010px;
+            margin: 7px auto;
+        }
+    }
+    @media (min-width: 2500px) and (max-width: 3900px){
+        
+        .topo img{
+            width: 350px;
+        }
+        
+        .navbar ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 5px 20px;
+            background-color: #FFCFDE;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .navbar li{
+            padding: 0 30px;
+            color: rgb(4, 4, 4);
+            font-weight: bold;
+        }
+
+        .sobre{
+            font-size: 30px;
+            min-width: 2000px;
+            text-align: center;
+        }
+
+        #about h2{
+            font-size: 50px;
+        }
+        
+        #contato{
+            font-size: 30px;
+            min-width: 2000px;
+        }
+
+        #contato h2{
+            font-size: 50px;
+            padding-bottom: 45px;
+        }
+
+        #contato .btn{
+            font-size: 30px;
+        }
+
+        #contato img{
+            width: 100px;
+        }
+        
+        #redes-sociais{
+            font-size: 30px;
+            min-width: 2000px;
+        }
+
+        #redes-sociais h2{
+            font-size: 50px;
+            padding-bottom: 45px;
+        }
+
+        .lista-redes img{
+            width: 80px;
+        }
+    }
