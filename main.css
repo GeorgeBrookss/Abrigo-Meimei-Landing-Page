@@ -62,16 +62,10 @@ html, body{
     justify-items: center;
 }
 
-.btn{
-    background-image: linear-gradient(#fde9ef,#fff, #fde9ef);
-    border-radius: 20px;
-}
 
 .contato img{
-    padding-left: 20px;
-    width: 50px;
-    border-radius: 200px;
-    filter: saturate(9);
+    width: 359px;
+    height: 72px;
 }
 
 #redes-sociais{
@@ -90,13 +84,12 @@ html, body{
 }
 
 .lista-redes li{
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 .lista-redes img{
-    width: 45px;
-    filter: saturate(8);
     border-radius: 200px;
+    width: 50px;
 }
 
 @media (max-width: 767px){
@@ -130,9 +123,10 @@ html, body{
         text-align: center;
         font-size: 14px;
     }
-    
-    .btn{
-        font-size: 12px;
+
+    #contato img{
+        width: 250px;
+        height: auto;
     }
 
     #redes-sociais{
@@ -152,13 +146,15 @@ html, body{
         list-style: none;
         margin: 0 auto;
         width: 200px;
-        padding-left: 0;
+    }
+
+    .lista-redes li{
+        padding: 20px;
     }
     
     .lista-redes img{
         width: 45px;
-        filter: saturate(8);
-        border-radius: 200px;
+        background-color: red;
     }
     
     .navbar-menu{
@@ -238,44 +234,38 @@ html, body{
         }
 
         .sobre{
-            font-size: 30px;
+            font-size: 25px;
             min-width: 2000px;
             text-align: center;
         }
 
         #about h2{
-            font-size: 50px;
+            font-size: 35px;
         }
         
         #contato{
-            font-size: 30px;
+            font-size: 25px;
             min-width: 2000px;
         }
 
         #contato h2{
-            font-size: 50px;
+            font-size: 35px;
             padding-bottom: 45px;
         }
 
-        #contato .btn{
-            font-size: 30px;
-        }
-
-        #contato img{
-            width: 100px;
-        }
+    
         
         #redes-sociais{
-            font-size: 30px;
+            font-size: 25px;
             min-width: 2000px;
         }
 
         #redes-sociais h2{
-            font-size: 50px;
+            font-size: 35px;
             padding-bottom: 45px;
         }
 
         .lista-redes img{
-            width: 80px;
+            width: 60px;
         }
     }
