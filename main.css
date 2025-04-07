@@ -61,6 +61,13 @@ html, body{
     justify-items: center;
 }
 
+#contato p{
+    padding-bottom: 35px;
+}
+
+#redes-sociais p{
+    padding-bottom: 35px;
+}
 
 .contato img{
     width: 359px;
@@ -165,6 +172,15 @@ html, body{
     }
 
     @media (min-width: 767px) and (max-width: 1023px){
+    
+        .navbar-menu{
+            border: outset 1px solid #fcbcd1;
+            border-radius: 20px;
+            background-color: #fcbcd1;
+            padding: 5px 20px;
+            margin-bottom: 10px;
+        }
+
         .sobre{
             width: 750px;
             margin: 9px auto;
@@ -221,7 +237,7 @@ html, body{
             background-color: #FFCFDE;
             border-radius: 50px;
             text-align: center;
-            font-size: 30px;
+            font-size: 25px;
         }
         
         .navbar li{
@@ -231,7 +247,8 @@ html, body{
         }
 
         .sobre{
-            font-size: 25px;
+            font-size: 20px;
+            padding-top: 35px;
             min-width: 2000px;
             text-align: center;
         }
@@ -241,19 +258,18 @@ html, body{
         }
         
         #contato{
-            font-size: 25px;
+            font-size: 20px;
             min-width: 2000px;
         }
 
         #contato h2{
             font-size: 35px;
-            padding-bottom: 45px;
+            padding-bottom: 35px;
         }
 
     
-        
         #redes-sociais{
-            font-size: 25px;
+            font-size: 20px;
             min-width: 2000px;
         }
 
@@ -261,7 +277,7 @@ html, body{
             font-size: 35px;
             padding-bottom: 45px;
         }
-
+        
         .lista-redes img{
             width: 60px;
         }
