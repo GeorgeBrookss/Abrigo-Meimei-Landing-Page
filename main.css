@@ -6,11 +6,10 @@
     font-family: "Nunito", sans-serif;
 }
 
-
 html, body{
-    background: linear-gradient(to bottom, #ffffff , #ffffff, #fcbcd1);
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(#fff, #fde9ef);
+    
 }
 
 .topo {
